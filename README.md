@@ -1,65 +1,65 @@
-# Roblox OAuth 2.0 Next.JS Example
+# Roblox OAuth 2.0 Next.JS の例
 
-Simple working implementation of Roblox's OAuth 2.0 API.
+Roblox OAuth 2.0 API のシンプルな実用的な実装。
 
-## Features
+## 機能
 
-- Authentication with [Lucia](https://lucia-auth.com/)
-- Dark and light themes
-- Simple home page
-- Database preconfigured
-- Basic animations
-## Previews
+- [Lucia](https://lucia-auth.com/)による認証
+- ダークテーマとライトテーマ
+- シンプルなホームページ
+- 事前設定されたデータベース
+- 基本的なアニメーション
+## プレビュー
 
-### Dark mode
+### ダークモード
 ![](https://i.imgur.com/BeZp8tj.png)
 
-### Light mode
+### ライトモード
 ![](https://i.imgur.com/zwX4qTj.png)
 
-## Getting Started
+## はじめる
 
-Before running the server, you'll need to [Register an OAuth 2.0 Application](https://create.roblox.com/docs/cloud/open-cloud/oauth2-registration) and add the ``http://localhost:3000/login/roblox/callback``to your list of allowed redirects. You may need to change this if you are running it on a different port or domain.
+サーバーを実行する前に、[OAuth 2.0 アプリケーションを登録](https://create.roblox.com/docs/cloud/open-cloud/oauth2-registration)し、許可されたリダイレクトのリストに``http://localhost:3000/login/roblox/callback`` を追加する必要があります。別のポートまたはドメインで実行している場合は、これを変更する必要があります。
 
-Once you have your application created, you'll need to install the application dependencies:
+OAuth 2.0 アプリケーションを作成したら、アプリケーションの依存関係をインストールする必要があります：
 
 ```bash
 npm i
 
-# or
+# または
 
 yarn install
 
-# or
+# または
 
 pnpm i
 
-# or
+# または
 
 bun install
 ```
 
-  
-Then, run the server:
+
+次に、サーバーを実行します：
 ```bash
 npm run dev
 
-# or
+# または
 
 yarn dev
 
-# or
+# または
 
 pnpm dev
 
-# or
+# または
 
 bun dev
 ```
 
-Go to [http://localhost:3000](http://localhost:3000) in your browser and you should see the site running.
+ブラウザで [http://localhost:3000](http://localhost:3000) にアクセスすると、サイトが実行中であることがわかります。
 
-### Useful links
+### 便利なリンク
 
 - [Shadcn UI](https://ui.shadcn.com)
 - [Framer Motion](https://www.framer.com/motion/)
