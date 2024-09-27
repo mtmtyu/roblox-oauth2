@@ -4,11 +4,11 @@ export default function DataExample() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 lg:py-24 px-12 lg:px-24 gap-12">
       <div className="col-span-1 my-auto">
-        <h1 className="text-6xl font-bold">See The Data</h1>
+        <h1 className="text-6xl font-bold">データを見る</h1>
 
         <p className="mt-8 text-xl">
-          See what data Roblox returns when you sign in. This will be useful for
-          you to understand what data you can use in your application.
+            サインイン時に Roblox が返すデータを確認します。
+            これは、アプリケーションで使用できるデータを理解するのに役立ちます。
         </p>
       </div>
       <div className="col-span-1 bg-purple-400 dark:bg-violet-500 rounded-lg lg:px-8 relative overflow-clip flex justify-center items-center">

@@ -10,7 +10,7 @@ export default function NavigationMenu() {
         <Link href={"/"}>
           <div className="flex items-center gap-x-4">
             <Sparkles size={32} />
-            <h1 className="text-2xl font-bold">OAuth2 Example</h1>
+            <h1 className="text-2xl font-bold">OAuth2のサンプル</h1>
           </div>
         </Link>
 

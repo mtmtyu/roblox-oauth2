@@ -13,8 +13,7 @@ export default function Hero() {
         transition={{ duration: 0.5 }}
       >
         <span className="bg-gradient-to-tl from-purple-500 to-pink-400 dark:bg-gradient-to-br dark:from-violet-400 dark:to-purple-600 bg-clip-text font-black text-transparent leading-tight">
-          Leverage the power <br />
-          of Roblox OAuth2
+          Roblox OAuth2の<br/>パワーを活用する
         </span>
       </motion.h1>
 
@@ -24,11 +23,11 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.3 }}
       >
-        Edit this page in{" "}
+        このページを編集するには{" "}
         <code className="bg-purple-400 dark:bg-violet-500 px-2 py-1 rounded-md whitespace-nowrap">
           src/app/page.tsx
         </code>{" "}
-        if you dare.
+        を確認してください。
       </motion.p>
 
       <div className="flex items-center justify-center gap-4">
@@ -39,7 +38,7 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.6 }}
           >
-            Log in
+            ログイン
           </motion.button>
         </Link>
 
@@ -50,7 +49,7 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.7 }}
           >
-            See the code
+            コードを見る
           </motion.button>
         </Link>
       </div>

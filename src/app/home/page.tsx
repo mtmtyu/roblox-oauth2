@@ -50,25 +50,25 @@ export default async function Home() {
             </Avatar>
           </div>
           <div className="flex flex-col md:mr-auto gap-y-2 justify-center items-center md:items-start">
-            <h1 className="text-3xl md:text-4xl font-bold">Welcome, {user.username}!</h1>
-            <p className="text-lg">You are logged in with Roblox OAuth2.</p>
+            <h1 className="text-3xl md:text-4xl font-bold">{user.username}さん、ようこそ！</h1>
+            <p className="text-lg">Roblox OAuth2でログインしています。</p>
           </div>
 
           <div className="flex gap-2 items-center justify-center">
             <Link href={user.profile}>
               <button className="px-6 py-2 bg-primary text-secondary font-medium rounded-xl shadow-lg border-2 border-primary-foreground whitespace-nowrap">
-                Profile
+                プロファイル
               </button>
             </Link>
             <form action={logout}>
               <button className="px-6 py-2 bg-primary text-secondary font-medium rounded-xl shadow-lg border-2 border-primary-foreground whitespace-nowrap">
-                Log out
+                ログアウト
               </button>
             </form>
           </div>
         </div>
 
-        <h2 className="text-2xl font-semibold mr-auto pt-6">Your data:</h2>
+        <h2 className="text-2xl font-semibold mr-auto pt-6">あなたのデータ:</h2>
 
         <Code
           className="w-full overflow-x-scroll !pt-4"

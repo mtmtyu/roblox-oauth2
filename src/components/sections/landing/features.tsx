@@ -26,16 +26,14 @@ export default function Features() {
           </h2>
 
           <p className="mt-4 text-xl dark:text-primary-foreground">
-            This project uses the Lucia Auth library to simplify the OAuth2
-            process. It's a simple, lightweight, and easy-to-use library that
-            allows you to authenticate users with any OAuth2 provider. I chose
-            it over other libraries like NextAuth.js because it's very flexible
-            and well-documented.
+              このプロジェクトでは、Lucia Auth ライブラリを使用して OAuth2 プロセスを簡素化します。
+              これはシンプルで軽量、そして使いやすいライブラリで、任意の OAuth2 プロバイダーを使用してユーザーを認証できます。
+              非常に柔軟でドキュメントが充実しているため、NextAuth.js などの他のライブラリよりもこれを選択しました。
           </p>
 
           <div className="flex items-center gap-2 mt-8 text-purple-400 dark:text-violet-500">
             <a href="https://lucia-auth.com/" className="font-medium">
-              Read the docs
+              ドキュメントを読む
             </a>
 
             <MoveRight size={24} />
@@ -52,13 +50,13 @@ export default function Features() {
         <h2 className="text-4xl font-extrabold text-white mt-4">Database</h2>
 
         <p className="mt-6 text-white text-lg font-medium">
-          This project comes with Prisma preconfigured. It's a modern ORM 
-          that makes it easy to manage your database and write queries in
-          TypeScript instead of SQL.
+            このプロジェクトには、Prisma が事前構成されています。
+            これは、データベースの管理を容易にし、SQL ではなく
+            TypeScript でクエリを記述できる最新の ORM です。
         </p>
 
         <p className="text-lg font-medium text-white mt-6 mb-2">
-          View the schema in:{" "}
+            schemaの場所:{" "}
           <code className="mt-4 text-white bg-zinc-800 px-2 py-1 rounded-md whitespace-nowrap">
             prisma/schema.prisma
           </code>
@@ -72,11 +70,11 @@ export default function Features() {
         transition={{ duration: 0.65, delay: 0.55 }}
       >
         <p className="text-2xl text-left font-semibold mr-auto">
-          Authenticated Pages
+            認証ページ
         </p>
 
         <p className="mt-4 text-lg text-left">
-          Lock down pages to only be accessible by authenticated users.
+            認証されたユーザーのみがアクセスできるようにページをロックダウンします。
         </p>
       </motion.div>
 
@@ -88,7 +86,7 @@ export default function Features() {
       >
         <div className="flex flex-col mr-4">
           <p className="text-4xl font-bold text-primary-foreground text-center leading-[3.2rem]">
-            Theme Toggle Included
+              テーマ切り替えが含まれています
           </p>
         </div>
       </motion.div>
@@ -99,11 +97,11 @@ export default function Features() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.65, delay: 0.55 }}
       >
-        <p className="text-2xl font-semibold z-10">Basic User Panel</p>
+        <p className="text-2xl font-semibold z-10">基本的なユーザーパネル</p>
 
         <p className="mt-4 text-lg z-10">
-          This project comes with a basic user panel that shows the user's
-          avatar, username, and Roblox profile URL.
+            このプロジェクトには、ユーザーのアバター、ユーザー名、Roblox プロファイル URL を
+            表示する基本的なユーザー パネルが付属しています。
         </p>
 
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:opacity-0 bg-secondary [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] rounded-3xl"></div>
